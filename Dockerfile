@@ -35,6 +35,8 @@ RUN bundle install
 WORKDIR /app
 COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
+
+RUN yarn install
 COPY start.sh /app/start.sh
 
 CMD [ "bash", "-l", "start.sh" ]
