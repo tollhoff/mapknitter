@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 
+//= require_tree .
 //= require jquery
 //= require jquery-ujs
 //= require jquery/dist/jquery.js
@@ -23,6 +24,7 @@
 //= require leaflet-toolbar/dist/leaflet.toolbar.js
 //= require leaflet-distortableimage/dist/leaflet.distortableimage.js
 //= require leaflet-easybutton/src/easy-button.js
+//= require Google.js
 //= require sparklines/source/sparkline.js
 //= require annotations-legacy.js
 //= require glfx-js/dist/glfx.js
